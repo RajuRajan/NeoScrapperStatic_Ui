@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <title>Scrapper</title>
+
+    <link rel="stylesheet" href="css/text.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row headerBg">
+
+
+           
+
+
+                <div class="header-container">
+                    <div class="nav">
+                        <li class="list logo">Neo Scrapper</li>
+
+                        <ul>
+
+                            <li class="list Menu">Dashboard</li>
+                            <li class="list Menu">Scheduler</li>
+                            <li class="list Menu">Contents</li>
+
+                            <li class="list Menu"> <img src="assets/images/reload.svg" width="20px" height="20px" /></li>
+                            <li class="list Menu"> <span data-notification="10" class="bell-container"><img
+                                        class="bell-shake-delay bell" src="assets/images/bell-regular.svg" width="20px"
+                                        height="20px" style="padding-right: 5px"></img></span></li>
+                            <li class="list Menu " style="padding-left: 220px;width:150px">
+
+                                <div class="dropdown">
+                                        <div class="Mask" ></div>
+                                    <div class="Joe-smith" style="margin-left: 50px;top:2px;position: absolute;">JoeSmith</div>
+                                    <div class="dropdown-content">
+                                      <a href="#">Link 1</a>
+                                      <a href="#">Link 2</a>
+                                     
+                                    </div>
+                                  </div>
+                              
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row pad" style="padding-left:40px;margin-top:60px">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card shadow">
+                            <div class=" Task">Running task</div>
+                            <div>
+                                <div class="Rounded-Rectangle running" id="myDiv">
+                                    <img src="assets/images/running.svg" width="30px"></img>
+                                </div>
+                                <h2>184</h2>
+                                <div class="Shape-20"></div>
+                                <p class="Last-Updated-on-8-Hr">Last Updated on 8 Hrs ago</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card shadow">
+                            <div class=" Task">Scheduled task</div>
+                            <div>
+                                <div class="Rounded-Rectangle scheduled" id="myDiv">
+                                    <img class="Path" src="assets/images/calendar.svg" width="30px"></img>
+                                </div>
+                                <h2>184</h2>
+                                <div class="Shape-20"></div>
+                                <p class="Last-Updated-on-8-Hr">Last Updated on 8 Hrs ago</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card shadow">
+                            <div class=" Task">Failed task</div>
+                            <div>
+                                <div class="Rounded-Rectangle warning" id="myDiv">
+                                    <img class="svg-color-change" src="assets/images/caution-sign.svg" width="30px"
+                                        style="fill: white"></img>
+                                </div>
+                                <h2>184</h2>
+                                <div class="Shape-20"></div>
+                                <p class="Last-Updated-on-8-Hr">Last Updated on 8 Hrs ago</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="card shadow">
+                            <div class=" Task">Server Load</div>
+                            <div>
+                                <div class="Rounded-Rectangle reload" id="myDiv">
+                                    <img src="assets/images/reload.svg" width="30px"></img>
+                                </div>
+                                <h2>184</h2>
+                                <div class="Shape-20"></div>
+                                <p class="Last-Updated-on-8-Hr">Last Updated on 8 Hrs ago</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-6 Running-Tasks">Running Tasks</div>
+                <div class="col-5 VIEW-ALL-TASKS">View All Tasks <span unicode="&#8594" class="view-symbol"></span>
+                </div>
+            </div>
+
+            <div style="margin-top:20px">
+
+
+                <div class="row">
+                    <table class="col-11" style="margin-left: 55px;text-align: center">
+
+
+                        <tbody>
+                            <tr class="Rectangle-body" id="th">
+                                <td>Job Code</td>
+                                <td>Task Source</td>
+                                <td>Created By</td>
+                                <td>Initiated Time</td>
+                                <td>ETA</td>
+                                <td>Priority</td>
+                                <td>Status</td>
+                                <td>Action</td>
+                            </tr>
+                            <tr class="Rectangle-Copy">
+                                <td>SC001</td>
+                                <td>Make my Trip</td>
+                                <td>EmpNo345</td>
+                                <td>14.50</td>
+                                <td>17.50</td>
+                                <td>5</td>
+                                <td><img src="assets/images/65.png" width="35px" height="30px"
+                                        style="padding-right: 5px" />Active
+                                </td>
+                                <td><img src="assets/images/pause-solid.svg" width="20px" height="20px"></img>
+                                    <img src="assets/images/trash-alt-solid.svg" width="20px" height="20px">
+                                    <img src="assets/images/edit-regular.svg" width="20px" height="20px"></img></td>
+                            </tr>
+                            <tr class="Rectangle-Copy-body-2">
+                                <td>SC001</td>
+                                <td>Make my Trip</td>
+                                <td>EmpNo345</td>
+                                <td>14.50</td>
+                                <td>17.50</td>
+                                <td>5</td>
+                                <td><img src="assets/images/65.png" width="35px" height="30px"
+                                        style="padding-right: 5px" />Active
+                                </td>
+                                <td><img src="assets/images/pause-solid.svg" width="20px" height="20px"></img>
+                                    <img src="assets/images/trash-alt-solid.svg" width="20px" height="20px">
+                                    <img src="assets/images/edit-regular.svg" width="20px" height="20px"></img></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
